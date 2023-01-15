@@ -783,7 +783,7 @@ img {
     opacity: 1;
 }
 
-.backdrop .is-hidden {
+.backdrop.is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
@@ -801,7 +801,7 @@ img {
 
 }
 
-.model-btn {
+.modal-btn {
     display: flex;
     align-items: center;
     justify-content: center;
