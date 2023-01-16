@@ -27,6 +27,7 @@ img {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
+
 }
 
 .link {
@@ -104,6 +105,11 @@ img {
     bottom: 0;
     left: 0;
     border-radius: 2px;
+
+}
+
+.underline {
+    color: #434455;
 }
 
 .header-contacts {
@@ -333,7 +339,7 @@ img {
 .team-soc-list{
     display: flex;
     justify-content: space-between;
-    padding: 12px 16px 36px 16px; 
+    padding: 12px 16px 0 16px; 
     align-items: center;
 }
 
@@ -356,7 +362,7 @@ img {
     background-color: #4D5AE5;
     justify-content: center;
     align-items: center;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link:hover {
@@ -408,7 +414,7 @@ img {
     justify-content: center;
     align-items: center;
     color: #8E8F99;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:focus,
@@ -422,7 +428,6 @@ img {
     height: 56px;
     display: flex;
     fill: currentColor;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-customers:hover {
@@ -442,11 +447,11 @@ img {
 }
 
 .container-soc-item{
-    padding-right: 16px;
+    margin-right: 16px;
 }
 
 .container-soc-item:last-child {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 .container-soc-link{
@@ -457,7 +462,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 16px;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -527,7 +531,7 @@ img {
 /*______________PORTFOLIO______________*/
 
 .body-btn button{
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .body-btn button:hover,
@@ -587,7 +591,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .body-btn-web {
@@ -603,7 +606,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .body-btn-app {
@@ -619,7 +621,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .body-btn-design {
@@ -635,7 +636,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .body-btn-marketing {
@@ -651,7 +651,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .body-btn-items {
@@ -674,7 +673,7 @@ img {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     display: block;
     text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link:hover {
